@@ -76,6 +76,7 @@ class JobListingScraper:
         full_path = os.path.abspath(filename)
         print(f"CSV saved to: {full_path}")
         os.startfile(full_path)
+        
 
     def run(self):
         self.search_jobs()
